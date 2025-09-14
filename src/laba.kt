@@ -28,4 +28,10 @@ fun main() {
     val n2= n /10 %10
     val n3= n %10
     println("$n → $n1 + $n2 + $n3 = ${n1 + n2 + n3}")*/
+    //Задание 7
+    /*val m = readln()
+    val n1 = readln()
+    val n2 = readln()
+    val n3 = readln()
+    println("$n1$m$n2$m$n3")*/
 }
