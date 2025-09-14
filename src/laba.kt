@@ -41,5 +41,9 @@ fun main() {
 //    println("$n")
 //    n++
 //    println("$n")
+    //Задание 9
+//    val n = readln()
+//    val rn = n.reversed().toInt()
+//    println("$rn")
 
 }
