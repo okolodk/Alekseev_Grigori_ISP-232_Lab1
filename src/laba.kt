@@ -45,5 +45,7 @@ fun main() {
 //    val n = readln()
 //    val rn = n.reversed().toInt()
 //    println("$rn")
-
+    //Задание 10
+//    val n = readln().toInt()
+//    println("${(n/100)%10}")
 }
