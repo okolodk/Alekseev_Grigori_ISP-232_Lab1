@@ -12,5 +12,8 @@ fun main() {
 //    val pi = 3.14
 //    val rad = 5
 //    println("${pi * rad.toDouble() * rad.toDouble()}")
-
+    //Задание 4
+    /*val name = readln()
+    val age = readln().toInt()
+    println("${name} вам ${2025 - age}")*/
 }
