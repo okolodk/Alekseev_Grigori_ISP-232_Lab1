@@ -22,5 +22,10 @@ fun main() {
 //    println("${n1} + ${n2} = ${n1 + n2}")
 //    println("${n1} - ${n2} = ${n1 - n2}")
 //    println("${n1} * ${n2} = ${n1 * n2}")
-
+    //Задание 6
+    /*val n = readln().toInt()
+    val n1 = n / 100
+    val n2= n /10 %10
+    val n3= n %10
+    println("$n → $n1 + $n2 + $n3 = ${n1 + n2 + n3}")*/
 }
