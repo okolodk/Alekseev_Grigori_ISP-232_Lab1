@@ -16,4 +16,11 @@ fun main() {
     /*val name = readln()
     val age = readln().toInt()
     println("${name} вам ${2025 - age}")*/
+    //Задание 5
+//    val n1 = readln().toInt()
+//    val n2 = readln().toInt()
+//    println("${n1} + ${n2} = ${n1 + n2}")
+//    println("${n1} - ${n2} = ${n1 - n2}")
+//    println("${n1} * ${n2} = ${n1 * n2}")
+
 }
