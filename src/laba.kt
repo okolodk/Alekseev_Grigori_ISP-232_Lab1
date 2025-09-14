@@ -34,4 +34,12 @@ fun main() {
     val n2 = readln()
     val n3 = readln()
     println("$n1$m$n2$m$n3")*/
+    //Задание 8
+//    var n = readln().toInt()
+//    println("$n")
+//    n++
+//    println("$n")
+//    n++
+//    println("$n")
+
 }
