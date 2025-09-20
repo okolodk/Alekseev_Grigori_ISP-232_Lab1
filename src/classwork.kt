@@ -84,4 +84,166 @@ fun main() {
 //    println("Произведение: ${a * b}")
 //    println("Частное: ${a / b}")
 //    println("Остаток: ${a % b}")
+
+    // === Шаг 1: Приветствие ===
+    println("Hello, world!")
+
+    // === Шаг 2: Исправленный вывод ===
+    println("Today is sunny!")
+
+    // === Шаг 4: Переменные и возраст ===
+    val myName = "Анна"
+    var myAge = 20
+    myAge = myAge + 10
+    println("Имя: $myName, Возраст: $myAge")
+
+    // === Шаг 5: Все типы данных ===
+    val intVal: Int = 42
+    val longVal: Long = 1000L
+    val doubleVal: Double = 3.1415
+    val floatVal: Float = 2.71f
+    val booleanVal: Boolean = true
+    val charVal: Char = 'A'
+    val stringVal: String = "Привет"
+    val anyVal: Any = "Можно любое значение"
+
+    println("Int: $intVal")
+    println("Long: $longVal")
+    println("Double: $doubleVal")
+    println("Float: $floatVal")
+    println("Boolean: $booleanVal")
+    println("Char: $charVal")
+    println("String: $stringVal")
+    println("Any: $anyVal")
+
+    // === Шаг 6: Шаблоны строк ===
+    val a = 10
+    val b = 15
+    println("a = $a")
+    println("b = $b")
+    println("a + b = ${a + b}")
+
+    // === Шаг 7: Основной пример из файла ===
+    val name = "Denis"
+    val age = 18
+    println("Hello")
+    println("My name is $name")
+    println("My age is $age")
+    val c = a + b + 8
+    val str = c.toString()
+    println(str)
+    val numList = arrayOf(1, 2, 3)
+    var x = 0
+    while (x < 3) {
+        println("Item $x is ${numList[x]}")
+        x = x + 1
+    }
+
+    // === Шаг 9: Преобразование типов ===
+    val numA: Int = 7
+    val numB: Double = 3.5
+    val numBAsInt = numB.toInt()
+    println("Сложение: ${numA + numBAsInt}")
+    println("Деление: ${numA / numB}")
+
+    // === Шаг 10: Исправленный код ===
+    val greeting = "Hello!"
+    println(greeting)
+
+    // === Шаг 11: Ввод имени, возраста, пола ===
+    print("Введите ваше имя: ")
+    val userName = readln()
+    print("Введите ваш возраст: ")
+    val userAgeStr = readln()
+    val userAge = userAgeStr.toInt()
+    print("Введите ваш пол: ")
+    val gender = readln()
+    println("Привет, $userName! Твой возраст: $userAge, Пол: $gender")
+
+    // === Задание 4: Расчёт возраста на 2025 год ===
+    print("Введите ваше имя: ")
+    val finalName = readln()
+    print("Введите ваш год рождения: ")
+    val birthYear = readln().toInt()
+    val futureAge = 2025 - birthYear
+    println("$finalName, вам $futureAge лет.")
+
+    // === Шаг 12: Подсчёт писем и математика ===
+    val unreadCount = 5
+    val readCount = 100
+    println("Общее количество сообщений: ${unreadCount + readCount}")
+
+    print("Введите первое число: ")
+    val inputA = readln().toInt()
+    print("Введите второе число: ")
+    val inputB = readln().toInt()
+    println("$inputA + $inputB = ${inputA + inputB}")
+    println("$inputA - $inputB = ${inputA - inputB}")
+    println("$inputA * $inputB = ${inputA * inputB}")
+    println("$inputA / $inputB = ${inputA / inputB}")
+    println("$inputA % $inputB = ${inputA % inputB}")
+
+    // === Шаг 13: Инкремент и декремент ===
+    var count = 10
+    count = count + 1
+    println(count)
+    count++
+    println(count)
+    count--
+    println(count)
+
+    // === Шаг 14: Время и деление ===
+    val totalSeconds = 7385
+    val hours = totalSeconds / 3600
+    val minutes = (totalSeconds % 3600) / 60
+    val seconds = totalSeconds % 60
+    println("${hours}ч ${minutes}м ${seconds}с")
+
+    // === Шаг 15: Температура ===
+    print("Введите температуру в градусах Фаренгейта: ")
+    val fahrenheit = readln().toDouble()
+    val celsius = (fahrenheit - 32) * 5 / 9
+    println("Температура в Цельсиях: $celsius°C")
+
+    // === Самостоятельные задания ===
+    val favoriteGame = "The Witcher 3"
+    val favoriteDigit = 7
+    val piValue = 3.14
+    val favoriteLetter = 'K'
+    println("Любимая игра: $favoriteGame")
+    println("Любимая цифра: $favoriteDigit")
+    println("Число Пи: $piValue")
+    println("Любимая буква: $favoriteLetter")
+
+    val circleArea = piValue * 5 * 5
+    println("Площадь круга: $circleArea")
+
+    print("Введите трёхзначное число: ")
+    val threeDigit = readln().toInt()
+    val digitSum = (threeDigit / 100) + (threeDigit % 100 / 10) + (threeDigit % 10)
+    println("Сумма цифр: $digitSum")
+
+    print("Введите разделитель: ")
+    val sep = readln()
+    print("Введите строку 1: "); val s1 = readln()
+    print("Введите строку 2: "); val s2 = readln()
+    print("Введите строку 3: "); val s3 = readln()
+    println("$s1$sep$s2$sep$s3")
+
+    print("Введите число: ")
+    val start = readln().toInt()
+    println(start)
+    println(start + 1)
+    println(start + 2)
+
+    print("Введите трёхзначное число: ")
+    val orig = readln().toInt()
+    val rev = (orig % 10) * 100 + ((orig / 10) % 10) * 10 + (orig / 100)
+    println("Перевёрнутое число: $rev")
+
+    print("Введите число: ")
+    val n = readln().toInt()
+    val hundredsDigit = (n / 100) % 10
+    println("Цифра сотен: $hundredsDigit")
 }
+
